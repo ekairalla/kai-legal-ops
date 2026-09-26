@@ -62,6 +62,13 @@ Números de projetos reais, sem identificar cliente, carteira ou pessoa:
   [02 · classificação de publicações](docs/casos/02-classificacao-de-publicacoes.md) ·
   [03 · IA com avaliador independente](docs/casos/03-ia-com-avaliador-independente.md)
 
+## Código
+
+- [**kai-toolkit**](https://github.com/ekairalla/kai-toolkit): cliente de API de ERP jurídico que
+  renova token no meio da execução, respeita limite de requisições e não repete escrita incerta;
+  registro de consumo com custo por área; e IA com avaliador independente e gabarito. Python puro,
+  com testes contra uma API falsa que reproduz os defeitos reais.
+
 ## Contato
 
 kairalla@live.com · [LinkedIn](https://www.linkedin.com/in/eduardo-kairalla) ·
