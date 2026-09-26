@@ -17,9 +17,9 @@ import re
 import subprocess
 import sys
 
-# e-mail pessoal, ficticio e os enderecos tecnicos que aparecem em commit e remoto (noreply, git@github.com)
+# e-mail pessoal, ficticio e os enderecos tecnicos que aparecem em commit e remoto (noreply e git@github.com)
 DOMINIOS_OK = ("live.com", "gmail.com", "outlook.com", "exemplo.com", "example.com",
-               "users.noreply.github.com", "github.com", "anthropic.com")
+               "users.noreply.github.com", "github.com")
 SIGILOSOS = [t.strip() for t in os.environ.get("KAI_SIGILOSOS", "").split(",") if t.strip()]
 
 EXT_BLOQUEADA = {".xlsx", ".xlsm", ".csv", ".tsv", ".eml", ".msg", ".pst", ".ost",
